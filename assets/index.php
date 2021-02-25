@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Personal Site</title>
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Links-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo"><a href="#">myBio</a></div>
+                <div class="nav">
+                    <a href="#" class="nav-item active home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <li>About</li>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <li>Works</li>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <li>Contact</li>
+                    </a>
+                </div>
+                <div class="menu-wrap">
+                    <input type="checkbox" class="toggler">
+                    <div class="hamburger">
+                        <div></div>
+                    </div>
+                    <div class="menu">
+                        <div>
+                            <div>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Works</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-block">
+                <div class="header-text">WELCOME TO MY SITE</div>
+                <div class="header-sub-text">Web Developer</div>
+                <div class="header-btn">
+                    <a href="https://twitter.com/Dave_Conner" class="btn btn-1">
+                        <svg>
+                            <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                        </svg>
+                        Hover
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="service" id="service">
+        <div class="container">
+            <div class="service-inner">
+                <div class="service-header">Services</div>
+                <div class="service-line"></div>
+                <div class="service-sub-header">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</div>
+                <div class="service-skills">
+                    <div class="service-item">
+                        <div class="service-item-round"></div>
+                        <div class="service-item-header">Clean Typography</div>
+                        <div class="service-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-round"></div>
+                        <div class="service-item-header">Rock Solid Code</div>
+                        <div class="service-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-round"></div>
+                        <div class="service-item-header">Expert Support</div>
+                        <div class="service-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
