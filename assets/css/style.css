@@ -770,6 +770,76 @@ img,
   cursor: pointer;
 }
 
+@media (min-width: 769px) {
+  .menu-wrap {
+    display: none;
+  }
+
+  .about-photo {
+    margin-right: 100px;
+  }
+
+  .subscribe-contacts {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 50px;
+  }
+
+  .about-block {
+    flex-wrap: wrap;
+  }
+
+  .about-photo {
+    margin-right: 0;
+  }
+
+  .about-text {
+    margin-top: 50px;
+  }
+
+  .subscribe-contacts {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 700px) {
+  .inputs {
+    flex-wrap: wrap;
+  }
+  .inputs :nth-child(2) {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 475px) {
+  .logo {
+    margin-left: 30px;
+  }
+
+  .inputs {
+    flex-wrap: wrap;
+  }
+  .inputs :nth-child(2) {
+    margin-top: 25px;
+  }
+
+  .form-inner {
+    flex-wrap: wrap;
+  }
+
+  .inputs {
+    margin-top: 50px;
+  }
+
+  .subscribe-contacts {
+    margin-left: 0px;
+  }
+}
 footer {
   background-color: #993b00;
   padding-top: 100px;
