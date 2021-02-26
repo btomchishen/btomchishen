@@ -1,5 +1,5 @@
 <?php
-const SUBSCRIPTIONS_FILE = '../assets/subscription.ser';
+const SUBSCRIPTIONS_FILE = '../assets/storage/git subscription.ser';
 /*** Дістає список із усіх підписок з файлу* @return array*/
 function allSubscriptions()
 {
