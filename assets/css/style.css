@@ -490,6 +490,78 @@ header {
   transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+.bg,
+.overlay {
+  text-align: center;
+}
+
+img,
+.overlay {
+  transition: 0.3s all;
+  border-radius: 3px;
+}
+
+.bg {
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  max-width: 31%;
+  position: relative;
+  margin: 0.5%;
+}
+.bg img {
+  width: 100%;
+  margin-bottom: -4px;
+}
+.bg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  opacity: 0;
+}
+.bg .overlay h2 {
+  padding-top: 20%;
+  font-family: "Droid Serif", serif;
+}
+.bg .overlay p {
+  font-family: "Julius Sans One", sans-serif;
+}
+.bg:hover .overlay {
+  opacity: 1;
+}
+.bg:hover img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.work-photos {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1148px) {
+  .bg {
+    max-width: 48%;
+    margin: 1%;
+  }
+
+  .work-photos {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg {
+    float: none;
+    max-width: 80%;
+    margin: 1% auto;
+  }
+}
 .btn {
   margin: 0 auto;
   color: #fff;
