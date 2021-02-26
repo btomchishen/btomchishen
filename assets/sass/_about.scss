@@ -1,0 +1,39 @@
+.about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+.about-inner {
+    .btn {
+        color: black;
+    }
+    .btn-1 {
+        rect {
+            stroke: black;
+        }
+    }
+}
+.about-btn {
+    padding-top: 50px;
+    margin-bottom: -50px;
+    display: flex;
+    justify-content: center;
+}
+.about-block {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 70px;
+    display: flex;
+}
+.about-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

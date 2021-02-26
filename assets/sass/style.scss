@@ -31,8 +31,30 @@ section{
     margin: 0 auto;
     max-width: 1140px;
 }
+.section-header {
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 24px;
+}
+.section-line {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 50px;
+    height: 1px;
+    background-color: black;
+}
+.section-sub-header {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 @import '_header.scss';
 @import '_service.scss';
+@import '_about.scss';
 @import '_button.scss';
 @import '_menu.scss';
