@@ -149,6 +149,10 @@ header {
   .about-photo {
     margin-right: 100px;
   }
+
+  .subscribe-contacts {
+    margin-left: 25px;
+  }
 }
 @media (max-width: 768px) {
   .nav {
@@ -170,10 +174,41 @@ header {
   .about-text {
     margin-top: 50px;
   }
+
+  .subscribe-contacts {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 700px) {
+  .inputs {
+    flex-wrap: wrap;
+  }
+  .inputs :nth-child(2) {
+    margin-top: 25px;
+  }
 }
 @media (max-width: 475px) {
   .logo {
     margin-left: 30px;
+  }
+
+  .inputs {
+    flex-wrap: wrap;
+  }
+  .inputs :nth-child(2) {
+    margin-top: 25px;
+  }
+
+  .form-inner {
+    flex-wrap: wrap;
+  }
+
+  .inputs {
+    margin-top: 50px;
+  }
+
+  .subscribe-contacts {
+    margin-left: 0px;
   }
 }
 .btn {
@@ -275,6 +310,10 @@ header {
   .about-photo {
     margin-right: 100px;
   }
+
+  .subscribe-contacts {
+    margin-left: 25px;
+  }
 }
 @media (max-width: 768px) {
   .nav {
@@ -296,10 +335,41 @@ header {
   .about-text {
     margin-top: 50px;
   }
+
+  .subscribe-contacts {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 700px) {
+  .inputs {
+    flex-wrap: wrap;
+  }
+  .inputs :nth-child(2) {
+    margin-top: 25px;
+  }
 }
 @media (max-width: 475px) {
   .logo {
     margin-left: 30px;
+  }
+
+  .inputs {
+    flex-wrap: wrap;
+  }
+  .inputs :nth-child(2) {
+    margin-top: 25px;
+  }
+
+  .form-inner {
+    flex-wrap: wrap;
+  }
+
+  .inputs {
+    margin-top: 50px;
+  }
+
+  .subscribe-contacts {
+    margin-left: 0px;
   }
 }
 .btn {
@@ -407,6 +477,10 @@ header {
   .about-photo {
     margin-right: 100px;
   }
+
+  .subscribe-contacts {
+    margin-left: 25px;
+  }
 }
 @media (max-width: 768px) {
   .nav {
@@ -428,10 +502,41 @@ header {
   .about-text {
     margin-top: 50px;
   }
+
+  .subscribe-contacts {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 700px) {
+  .inputs {
+    flex-wrap: wrap;
+  }
+  .inputs :nth-child(2) {
+    margin-top: 25px;
+  }
 }
 @media (max-width: 475px) {
   .logo {
     margin-left: 30px;
+  }
+
+  .inputs {
+    flex-wrap: wrap;
+  }
+  .inputs :nth-child(2) {
+    margin-top: 25px;
+  }
+
+  .form-inner {
+    flex-wrap: wrap;
+  }
+
+  .inputs {
+    margin-top: 50px;
+  }
+
+  .subscribe-contacts {
+    margin-left: 0px;
   }
 }
 .btn {
@@ -562,6 +667,109 @@ img,
     margin: 1% auto;
   }
 }
+.phone-header {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+}
+.phone-header p {
+  margin-left: 10px;
+}
+
+.phone-number {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.subscribe-mail {
+  margin-top: 50px;
+}
+
+.mail-header {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+}
+.mail-header p {
+  margin-left: 10px;
+}
+
+.e-mail {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.form-inner {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.sub_block.new_dex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub_block.new_dex .form_sub {
+  width: 670px;
+  height: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -75px;
+}
+
+.sub_block.new_dex .form_sub .title {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.875;
+}
+
+.sub_block.new_dex .form_sub .inputs {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sub_block.new_dex .form_sub .inputs input {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fff7f4;
+  left: 454px;
+  top: 4158px;
+  width: 251px;
+  height: 30px;
+  outline: none;
+  color: #000;
+  padding: 10px;
+}
+
+.sub_block.new_dex .form_sub button {
+  background-color: #993b00;
+  box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
+  margin-top: 50px;
+  width: 232px;
+  height: 44px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 footer {
   background-color: #993b00;
   padding-top: 100px;

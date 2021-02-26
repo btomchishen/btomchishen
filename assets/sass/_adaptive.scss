@@ -5,6 +5,9 @@
     .about-photo {
         margin-right: 100px;
     }
+    .subscribe-contacts {
+        margin-left: 25px;
+    }
 }
 @media (max-width: 768px) {
     .nav {
@@ -22,9 +25,35 @@
     .about-text {
         margin-top: 50px;
     }
+    .subscribe-contacts {
+        margin-left: 25px;
+    }
+}
+@media (max-width: 700px) {
+    .inputs {
+        flex-wrap: wrap;
+        :nth-child(2) {
+            margin-top: 25px;
+        }
+    }
 }
 @media (max-width: 475px) {
     .logo {
         margin-left: 30px;
+    }
+    .inputs {
+        flex-wrap: wrap;
+        :nth-child(2) {
+            margin-top: 25px;
+        }
+    }
+    .form-inner {
+        flex-wrap: wrap;
+    }
+    .inputs {
+        margin-top: 50px;
+    }
+    .subscribe-contacts {
+        margin-left: 0px;
     }
 }
